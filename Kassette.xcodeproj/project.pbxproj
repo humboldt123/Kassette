@@ -11,7 +11,42 @@
 		DFD27DC12C5BE9CA0084BD3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DC02C5BE9CA0084BD3F /* ContentView.swift */; };
 		DFD27DC32C5BE9CC0084BD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD27DC22C5BE9CC0084BD3F /* Assets.xcassets */; };
 		DFD27DC62C5BE9CC0084BD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD27DC52C5BE9CC0084BD3F /* Preview Assets.xcassets */; };
+		DFD27DCE2C5BE9E40084BD3F /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = DFD27DCD2C5BE9E40084BD3F /* SpotifyiOS */; };
+		DFD27DD02C5BEA6E0084BD3F /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DCF2C5BEA6E0084BD3F /* SpotifyController.swift */; };
+		DFD27DD92C5C3E490084BD3F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD27DD82C5C3E490084BD3F /* WidgetKit.framework */; };
+		DFD27DDB2C5C3E490084BD3F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD27DDA2C5C3E490084BD3F /* SwiftUI.framework */; };
+		DFD27DDE2C5C3E490084BD3F /* KassetteWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DDD2C5C3E490084BD3F /* KassetteWidgetBundle.swift */; };
+		DFD27DE02C5C3E490084BD3F /* KassetteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DDF2C5C3E490084BD3F /* KassetteWidget.swift */; };
+		DFD27DE22C5C3E4B0084BD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD27DE12C5C3E4B0084BD3F /* Assets.xcassets */; };
+		DFD27DE62C5C3E4B0084BD3F /* KassetteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DFD27DD62C5C3E490084BD3F /* KassetteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFD27DEE2C5C40EA0084BD3F /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DED2C5C40EA0084BD3F /* SpotifyManager.swift */; };
+		DFD27DEF2C5C40EA0084BD3F /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DED2C5C40EA0084BD3F /* SpotifyManager.swift */; };
+		DFD27DF12C5C42810084BD3F /* TogglePlaybackIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27DF02C5C42810084BD3F /* TogglePlaybackIntent.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD27DE42C5C3E4B0084BD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD27DB32C5BE9CA0084BD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD27DD52C5C3E490084BD3F;
+			remoteInfo = KassetteWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFD27DE72C5C3E4B0084BD3F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFD27DE62C5C3E4B0084BD3F /* KassetteWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DFD27DBB2C5BE9CA0084BD3F /* Kassette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kassette.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +54,19 @@
 		DFD27DC02C5BE9CA0084BD3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFD27DC22C5BE9CC0084BD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD27DC52C5BE9CC0084BD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFD27DCF2C5BEA6E0084BD3F /* SpotifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyController.swift; sourceTree = "<group>"; };
+		DFD27DD12C5BEE0B0084BD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFD27DD62C5C3E490084BD3F /* KassetteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KassetteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD27DD82C5C3E490084BD3F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DFD27DDA2C5C3E490084BD3F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DFD27DDD2C5C3E490084BD3F /* KassetteWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KassetteWidgetBundle.swift; sourceTree = "<group>"; };
+		DFD27DDF2C5C3E490084BD3F /* KassetteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KassetteWidget.swift; sourceTree = "<group>"; };
+		DFD27DE12C5C3E4B0084BD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD27DE32C5C3E4B0084BD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD27DEB2C5C3EAF0084BD3F /* Kassette.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kassette.entitlements; sourceTree = "<group>"; };
+		DFD27DEC2C5C3ECD0084BD3F /* KassetteWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KassetteWidgetExtension.entitlements; sourceTree = "<group>"; };
+		DFD27DED2C5C40EA0084BD3F /* SpotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+		DFD27DF02C5C42810084BD3F /* TogglePlaybackIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePlaybackIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +74,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD27DCE2C5BE9E40084BD3F /* SpotifyiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD27DD32C5C3E490084BD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD27DDB2C5C3E490084BD3F /* SwiftUI.framework in Frameworks */,
+				DFD27DD92C5C3E490084BD3F /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +93,11 @@
 		DFD27DB22C5BE9CA0084BD3F = {
 			isa = PBXGroup;
 			children = (
+				DFD27DED2C5C40EA0084BD3F /* SpotifyManager.swift */,
+				DFD27DEC2C5C3ECD0084BD3F /* KassetteWidgetExtension.entitlements */,
 				DFD27DBD2C5BE9CA0084BD3F /* Kassette */,
+				DFD27DDC2C5C3E490084BD3F /* KassetteWidget */,
+				DFD27DD72C5C3E490084BD3F /* Frameworks */,
 				DFD27DBC2C5BE9CA0084BD3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD27DBB2C5BE9CA0084BD3F /* Kassette.app */,
+				DFD27DD62C5C3E490084BD3F /* KassetteWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +114,11 @@
 		DFD27DBD2C5BE9CA0084BD3F /* Kassette */ = {
 			isa = PBXGroup;
 			children = (
+				DFD27DEB2C5C3EAF0084BD3F /* Kassette.entitlements */,
+				DFD27DD12C5BEE0B0084BD3F /* Info.plist */,
 				DFD27DBE2C5BE9CA0084BD3F /* KassetteApp.swift */,
 				DFD27DC02C5BE9CA0084BD3F /* ContentView.swift */,
+				DFD27DCF2C5BEA6E0084BD3F /* SpotifyController.swift */,
 				DFD27DC22C5BE9CC0084BD3F /* Assets.xcassets */,
 				DFD27DC42C5BE9CC0084BD3F /* Preview Content */,
 			);
@@ -67,6 +133,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DFD27DD72C5C3E490084BD3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD27DD82C5C3E490084BD3F /* WidgetKit.framework */,
+				DFD27DDA2C5C3E490084BD3F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD27DDC2C5C3E490084BD3F /* KassetteWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DFD27DDD2C5C3E490084BD3F /* KassetteWidgetBundle.swift */,
+				DFD27DDF2C5C3E490084BD3F /* KassetteWidget.swift */,
+				DFD27DF02C5C42810084BD3F /* TogglePlaybackIntent.swift */,
+				DFD27DE12C5C3E4B0084BD3F /* Assets.xcassets */,
+				DFD27DE32C5C3E4B0084BD3F /* Info.plist */,
+			);
+			path = KassetteWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +164,37 @@
 				DFD27DB72C5BE9CA0084BD3F /* Sources */,
 				DFD27DB82C5BE9CA0084BD3F /* Frameworks */,
 				DFD27DB92C5BE9CA0084BD3F /* Resources */,
+				DFD27DE72C5C3E4B0084BD3F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD27DE52C5C3E4B0084BD3F /* PBXTargetDependency */,
+			);
+			name = Kassette;
+			packageProductDependencies = (
+				DFD27DCD2C5BE9E40084BD3F /* SpotifyiOS */,
+			);
+			productName = Kassette;
+			productReference = DFD27DBB2C5BE9CA0084BD3F /* Kassette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD27DD52C5C3E490084BD3F /* KassetteWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD27DEA2C5C3E4B0084BD3F /* Build configuration list for PBXNativeTarget "KassetteWidgetExtension" */;
+			buildPhases = (
+				DFD27DD22C5C3E490084BD3F /* Sources */,
+				DFD27DD32C5C3E490084BD3F /* Frameworks */,
+				DFD27DD42C5C3E490084BD3F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Kassette;
-			productName = Kassette;
-			productReference = DFD27DBB2C5BE9CA0084BD3F /* Kassette.app */;
-			productType = "com.apple.product-type.application";
+			name = KassetteWidgetExtension;
+			productName = KassetteWidgetExtension;
+			productReference = DFD27DD62C5C3E490084BD3F /* KassetteWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +209,9 @@
 					DFD27DBA2C5BE9CA0084BD3F = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					DFD27DD52C5C3E490084BD3F = {
+						CreatedOnToolsVersion = 15.4;
+					};
 				};
 			};
 			buildConfigurationList = DFD27DB62C5BE9CA0084BD3F /* Build configuration list for PBXProject "Kassette" */;
@@ -111,11 +223,15 @@
 				Base,
 			);
 			mainGroup = DFD27DB22C5BE9CA0084BD3F;
+			packageReferences = (
+				DFD27DCC2C5BE9E40084BD3F /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
 			productRefGroup = DFD27DBC2C5BE9CA0084BD3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DFD27DBA2C5BE9CA0084BD3F /* Kassette */,
+				DFD27DD52C5C3E490084BD3F /* KassetteWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +246,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFD27DD42C5C3E490084BD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD27DE22C5C3E4B0084BD3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +261,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD27DEE2C5C40EA0084BD3F /* SpotifyManager.swift in Sources */,
 				DFD27DC12C5BE9CA0084BD3F /* ContentView.swift in Sources */,
+				DFD27DD02C5BEA6E0084BD3F /* SpotifyController.swift in Sources */,
 				DFD27DBF2C5BE9CA0084BD3F /* KassetteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFD27DD22C5C3E490084BD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD27DF12C5C42810084BD3F /* TogglePlaybackIntent.swift in Sources */,
+				DFD27DEF2C5C40EA0084BD3F /* SpotifyManager.swift in Sources */,
+				DFD27DDE2C5C3E490084BD3F /* KassetteWidgetBundle.swift in Sources */,
+				DFD27DE02C5C3E490084BD3F /* KassetteWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD27DE52C5C3E4B0084BD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD27DD52C5C3E490084BD3F /* KassetteWidgetExtension */;
+			targetProxy = DFD27DE42C5C3E4B0084BD3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DFD27DC72C5BE9CC0084BD3F /* Debug */ = {
@@ -267,14 +412,18 @@
 		DFD27DCA2C5BE9CC0084BD3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kassette/Kassette.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Kassette/Preview Content\"";
 				DEVELOPMENT_TEAM = FRXVVTS5RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kassette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +436,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = info.vivime.Kassette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,14 +446,18 @@
 		DFD27DCB2C5BE9CC0084BD3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kassette/Kassette.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Kassette/Preview Content\"";
 				DEVELOPMENT_TEAM = FRXVVTS5RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kassette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +470,65 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = info.vivime.Kassette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFD27DE82C5C3E4B0084BD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = KassetteWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRXVVTS5RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KassetteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KassetteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.vivime.Kassette.KassetteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD27DE92C5C3E4B0084BD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = KassetteWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRXVVTS5RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KassetteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KassetteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.vivime.Kassette.KassetteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +556,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DFD27DEA2C5C3E4B0084BD3F /* Build configuration list for PBXNativeTarget "KassetteWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD27DE82C5C3E4B0084BD3F /* Debug */,
+				DFD27DE92C5C3E4B0084BD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFD27DCC2C5BE9E40084BD3F /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFD27DCD2C5BE9E40084BD3F /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFD27DCC2C5BE9E40084BD3F /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DFD27DB32C5BE9CA0084BD3F /* Project object */;
 }
